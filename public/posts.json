@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "title": "The React Cheatsheet for 2020 (+ real-world examples)",
+    "author": "Reed Burger",
+    "date": "Jan 19",
+    "tags": [
+      "react",
+      "javascript",
+      "beginners",
+      "career"
+    ],
+    "likes": 121,
+    "commentsNum": 9,
+    "featured": true
+  },
+  {
+    "id": 1,
+    "title": "The React Cheatsheet for 2020 (+ real-world examples)",
+    "author": "Reed Burger",
+    "date": "Jan 19",
+    "tags": [
+      "react",
+      "javascript",
+      "beginners",
+      "career"
+    ],
+    "likes": 121,
+    "commentsNum": 9,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "The React Cheatsheet for 2020 (+ real-world examples)",
+    "author": "Reed Burger",
+    "date": "Jan 19",
+    "tags": [
+      "react",
+      "javascript",
+      "beginners",
+      "career"
+    ],
+    "likes": 121,
+    "commentsNum": 9,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "The React Cheatsheet for 2020 (+ real-world examples)",
+    "author": "Reed Burger",
+    "date": "Jan 19",
+    "tags": [
+      "react",
+      "javascript",
+      "beginners",
+      "career"
+    ],
+    "likes": 121,
+    "commentsNum": 9,
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "The React Cheatsheet for 2020 (+ real-world examples)",
+    "author": "Reed Burger",
+    "date": "Jan 19",
+    "tags": [
+      "react",
+      "javascript",
+      "beginners",
+      "career"
+    ],
+    "likes": 121,
+    "commentsNum": 9,
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "The React Cheatsheet for 2020 (+ real-world examples)",
+    "author": "Reed Burger",
+    "date": "Jan 19",
+    "tags": [
+      "react",
+      "javascript",
+      "beginners",
+      "career"
+    ],
+    "likes": 121,
+    "commentsNum": 9,
+    "featured": true
+  }
+]
