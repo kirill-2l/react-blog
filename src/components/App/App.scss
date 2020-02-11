@@ -1,3 +1,8 @@
+.blog {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -20,4 +25,19 @@
 .logo {
   font-size: 32px;
   font-weight: 700;
+  color: #fff;
+}
+
+.content {
+  flex: 1 0;
+  margin-left: 20px;
+  height: 100vh;
+  overflow: hidden scroll;
+  position: relative;
+  background-color: #fff;
+  padding: 0 15px;
+  &::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
 }

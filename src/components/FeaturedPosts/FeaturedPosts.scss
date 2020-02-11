@@ -1,0 +1,18 @@
+.featured-posts {
+  margin-top: 15px;
+  &__list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+  }
+  &__item {
+    width: calc(33.33% - 30px);
+    margin: 0 15px 15px;
+  }
+}
+
+.post {
+  &__title {
+    white-space: normal;
+  }
+}

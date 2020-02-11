@@ -1,16 +1,18 @@
+$darkBlue: #003459;
+$blue: #00A8E8;
+$body: #f8f8fd;
+$orange: #ff6823;
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif, arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $body;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-$darkBlue: #003459;
-$blue: #00A8E8;
 
 @import 'components/Sidebar/Sidebar';
+@import 'components/FeaturedPosts/FeaturedPosts';
+@import 'components/Breadcrumb/Breadcrumb';
