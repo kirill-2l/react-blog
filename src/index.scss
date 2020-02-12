@@ -2,6 +2,7 @@ $darkBlue: #003459;
 $blue: #00A8E8;
 $body: #f8f8fd;
 $orange: #ff6823;
+$gray: #e8e8e8;
 
 body {
   margin: 0;
@@ -10,7 +11,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $body;
 }
-
+* {
+  box-sizing: border-box;
+}
 
 
 @import 'components/Sidebar/Sidebar';

@@ -1,14 +1,23 @@
 import React from 'react';
-import { Breadcrumb as BreadcrumbAntd }  from 'antd';
+import { useHistory } from "react-router-dom";
+// import {routes} from '../../containers/App';
 const Breadcrumb = () => {
+  // let history = useHistory();
+
+
+
+  const routes = {
+    '/': 'Home',
+    '/posts': 'Posts',
+    '/posts/:slug': ':slug',
+  }
+
   return (
-    <BreadcrumbAntd
-    className='breadcrumbs'
-    >
-      <BreadcrumbAntd.Item>Home</BreadcrumbAntd.Item>
-      <BreadcrumbAntd.Item>List</BreadcrumbAntd.Item>
-      <BreadcrumbAntd.Item>App</BreadcrumbAntd.Item>
-    </BreadcrumbAntd>
-  )
-}
+    <ol className='breadcrumb'>
+      <li className='breadcrumb__item'>Home</li>
+      <li className='breadcrumb__item'>Posts</li>
+      <li className='breadcrumb__item breadcrumb__item--active'>PostName</li>
+    </ol>
+  );
+};
 export default Breadcrumb;

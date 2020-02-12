@@ -11,8 +11,34 @@
   }
 }
 
-.post {
+.posts-list {
+  &__item {
+    border: 1px solid $gray;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    box-sizing: border-box;
+    &:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    }
+  }
+  &__preview {
+    &-img {
+      width: 100%;
+      height: auto;
+    }
+  }
   &__title {
     white-space: normal;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  &__description {
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.45);
+  }
+  &__footer {
+    padding: 5px;
   }
 }

@@ -35,9 +35,17 @@
   overflow: hidden scroll;
   position: relative;
   background-color: #fff;
-  padding: 0 15px;
   &::-webkit-scrollbar {
     width: 0px; /* Remove scrollbar space */
     background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  &__head {
+    padding: 0 15px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+  }
+  &__body {
+    padding: 0 15px;
   }
 }

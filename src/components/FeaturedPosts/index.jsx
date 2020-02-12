@@ -1,35 +1,27 @@
 import React from 'react';
-import { Card } from "antd";
 
 const FeaturedPosts = ({ posts }) => {
   return (
-    <div className="featured-posts">
-      <div className="featured-posts__list">
+    <div className='featured-posts posts-list'>
+      <div className='featured-posts__list'>
         {posts.map(item => (
-          <Card
-            key={item.id}
-            className="featured-posts__item post"
-            hoverable
-            // loading
-            extra="new"
-            cover={
+          <div className='featured-posts__item posts-list__item' key={item.id}>
+            <div className='posts-list__preview'>
               <img
-                alt="example"
+                className='posts-list__preview-img'
+                alt='example'
                 src={`https://picsum.photos/id/23${item.id}/240/200`}
               />
-            }
-          >
-            <Card.Meta
-              className='post__description'
-              title={<div className="post__title">{item.title}</div>}
-              description="www.instagram.com"
-              />
-
-          </Card>
+            </div>
+            <div className='posts-list__footer'>
+              <div className='posts-list__title'>{item.title}</div>
+              <div className='posts-list__description'>instagram.com</div>
+            </div>
+          </div>
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default FeaturedPosts;

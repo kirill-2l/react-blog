@@ -14,13 +14,19 @@
     margin-top: 20vh;
   }
   &__item {
-    font-size: 22px;
-    color: #fff;
-    transition: color linear 0.3s;
     &:not(:last-child) {
       margin-bottom: 10px;
     }
-    &:hover {
+  }
+  &__link {
+    font-size: 22px;
+    color: #fff;
+    transition: color linear 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover,
+    &:active,
+    &:focus {
       color: $orange;
     }
     &--active {
