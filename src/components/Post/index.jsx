@@ -1,12 +1,14 @@
 import React from 'react';
-
-const Post = ({ title, description, id }) => {
+import { useParams } from 'react-router-dom'
+const Post = ({ posts }) => {
+  const { postID } = useParams();
+  if (posts) {
+    const post = posts.filter(item => item.id === Number(postID));
+    console.log(post)
+  }
   return (
-    <div>
-      <h2>{title}</h2>
-      <div className='post'>{description}</div>
-      <div>{id}</div>
-    </div>
+    // <div>{post.title}</div>1
+    1
   );
 };
 

@@ -24,22 +24,24 @@ const App = ({ posts, setPosts }) => {
         <div className='content__body'>
           <Switch>
             <Route exact path='/'>
-              <PostsList posts={posts.slice(0, 6)} />
+              <PostsList posts={posts && posts.slice(0, 6)} />
             </Route>
             <Route exact path='/posts'>
-              <PostsList posts={posts} topic={'Все записи'} />
+              <PostsList posts={posts && posts} topic={'Все записи'} />
             </Route>
             <Route exact path='/category/javascript'>
               <PostsList
-                posts={posts.filter(item => item.topic === 'JavaScript')}
+                posts={posts && posts.filter(item => item.topic === 'JavaScript')}
                 topic={'JavaScript'}
               />
             </Route>
             <Route exact path='/category/reactJS'>
               <PostsList
-                posts={posts.filter(item => item.topic === 'ReactJS')}
+                posts={posts && posts.filter(item => item.topic === 'ReactJS')}
                 topic={'ReactJS'}
               />
+            </Route>
+            <Route exact path='/post/:postID' component={() => <Post posts={posts} />}>
             </Route>
             <Route exact path='/about'>
               <About />

@@ -17,11 +17,8 @@ const FeaturedPosts = ({ posts, title }) => {
             </div>
             <div className='posts-list__footer'>
               <Link
-                to={`/posts/${item.topic.toLowerCase()}/${item.id}`}
+                to={`/post/${item.id}`}
                 className='posts-list__title'
-                description={item.description}
-                title={item.title}
-                id={item.id}
               >
                 {item.title}
               </Link>

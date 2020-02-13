@@ -1,6 +1,6 @@
 const initialState = {
   isReady: false,
-  items: []
+  items: null
 };
 
 export default (state = initialState, action) => {
