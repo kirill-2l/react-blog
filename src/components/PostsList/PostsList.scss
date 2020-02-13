@@ -15,7 +15,6 @@
   &__item {
     border: 1px solid $gray;
     border-radius: 2px;
-    cursor: pointer;
     transition: all linear 0.3s;
     box-sizing: border-box;
     &:hover {
@@ -32,6 +31,11 @@
     white-space: normal;
     font-size: 14px;
     font-weight: 600;
+    color: $darkBlue;
+    text-decoration: none;
+    &:hover {
+      color: lighten($color: $darkBlue, $amount: 15)
+    }
   }
   &__description {
     font-size: 14px;

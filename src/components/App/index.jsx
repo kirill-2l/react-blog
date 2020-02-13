@@ -3,8 +3,10 @@ import axios from 'axios';
 import { Switch, Route } from 'react-router-dom';
 
 import Sidebar from '../Sidebar';
-import Breadcrumb from '../Breadcrumb';
-import FeaturedPosts from '../FeaturedPosts';
+// import Breadcrumb from '../Breadcrumb';
+import PostsList from '../PostsList';
+import Post from '../Post';
+import About from '../About';
 import './App.scss';
 
 const App = ({ posts, setPosts }) => {
@@ -17,14 +19,30 @@ const App = ({ posts, setPosts }) => {
       <Sidebar />
       <div className='content'>
         <div className='content__head'>
-          <Route path="/posts" component={Breadcrumb}/>
+          {/* <Route path="/posts" component={Breadcrumb}/> */}
         </div>
         <div className='content__body'>
           <Switch>
-            <Route path='/posts'>1</Route>
-            <Route path='/posts/:id'>posts inner</Route>
             <Route exact path='/'>
-              <FeaturedPosts posts={posts} />
+              <PostsList posts={posts.slice(0, 6)} />
+            </Route>
+            <Route exact path='/posts'>
+              <PostsList posts={posts} topic={'Все записи'} />
+            </Route>
+            <Route exact path='/category/javascript'>
+              <PostsList
+                posts={posts.filter(item => item.topic === 'JavaScript')}
+                topic={'JavaScript'}
+              />
+            </Route>
+            <Route exact path='/category/reactJS'>
+              <PostsList
+                posts={posts.filter(item => item.topic === 'ReactJS')}
+                topic={'ReactJS'}
+              />
+            </Route>
+            <Route exact path='/about'>
+              <About />
             </Route>
           </Switch>
         </div>

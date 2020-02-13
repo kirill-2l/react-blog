@@ -26,6 +26,11 @@
   font-size: 32px;
   font-weight: 700;
   color: #fff;
+  text-decoration: none;
+  transition: color linear 0.3s;
+  &:hover {
+    color: darken($color: #fff, $amount: 20);
+  }
 }
 
 .content {

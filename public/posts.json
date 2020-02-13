@@ -4,179 +4,121 @@
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript",
+    "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Коварный залетают свой вершину, пор, своего родного бросил курсивных страну языком на берегу, гор единственное lorem вскоре он ручеек переписывается силуэт образ буквоград рыбными! Своего, которое. Всемогущая рукописи жаренные использовало, речью рыбными семь последний грамматики родного lorem языкового журчит, но если."
   },
   {
     "id": 1,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript",
+    "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Коварный залетают свой вершину, пор, своего родного бросил курсивных страну языком на берегу, гор единственное lorem вскоре он ручеек переписывается силуэт образ буквоград рыбными! Своего, которое. Всемогущая рукописи жаренные использовало, речью рыбными семь последний грамматики родного lorem языкового журчит, но если."
   },
   {
     "id": 2,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript"
   },
   {
     "id": 3,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "ReactJS"
   },
   {
     "id": 4,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "ReactJS"
   },
   {
     "id": 5,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "ReactJS"
   },
   {
     "id": 6,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "ReactJS"
   },
   {
     "id": 7,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript"
   },
   {
     "id": 8,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript"
   },
   {
     "id": 9,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript"
   },
   {
     "id": 10,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript"
   },
   {
     "id": 11,
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
-    "tags": [
-      "react",
-      "javascript",
-      "beginners",
-      "career"
-    ],
+    "tags": ["react", "javascript", "beginners", "career"],
     "likes": 121,
     "commentsNum": 9,
-    "featured": true
+    "topic": "JavaScript"
   }
 ]

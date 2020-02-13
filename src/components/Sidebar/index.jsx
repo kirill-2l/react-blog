@@ -1,9 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 const TopMenu = () => {
   return (
     <div className='sidebar'>
-      <div className='sidebar__logo logo'>Blog</div>
+      <Link to='/' className='sidebar__logo logo'>
+        Blog
+      </Link>
       <ul className='sidebar__list'>
         <li className='sidebar__item'>
           <NavLink
@@ -16,23 +18,26 @@ const TopMenu = () => {
         </li>
         <li className='sidebar__item'>
           <NavLink
-            to='/posts/'
+            to='/category/javascript'
             className='sidebar__link'
             activeClassName='sidebar__link--active'
           >
-            Посты
+            JavaScript
           </NavLink>
         </li>
         <li className='sidebar__item'>
           <NavLink
-            to='/yet'
+            to='/category/reactjs'
             className='sidebar__link'
             activeClassName='sidebar__link--active'
           >
-            Еще что-то
+            ReactJS
           </NavLink>
         </li>
       </ul>
+      <div className='sidebar__search'>
+        <input type='text' className='sidebar__search-input' />
+      </div>
     </div>
   );
 };

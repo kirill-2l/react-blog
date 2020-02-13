@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const FeaturedPosts = ({ posts }) => {
+const FeaturedPosts = ({ posts, title }) => {
   return (
     <div className='featured-posts posts-list'>
+      <h2 className='featured-posts__title'>{title}</h2>
       <div className='featured-posts__list'>
         {posts.map(item => (
           <div className='featured-posts__item posts-list__item' key={item.id}>
@@ -14,7 +16,15 @@ const FeaturedPosts = ({ posts }) => {
               />
             </div>
             <div className='posts-list__footer'>
-              <div className='posts-list__title'>{item.title}</div>
+              <Link
+                to={`/posts/${item.topic.toLowerCase()}/${item.id}`}
+                className='posts-list__title'
+                description={item.description}
+                title={item.title}
+                id={item.id}
+              >
+                {item.title}
+              </Link>
               <div className='posts-list__description'>instagram.com</div>
             </div>
           </div>
