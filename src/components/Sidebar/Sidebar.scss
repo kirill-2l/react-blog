@@ -33,4 +33,17 @@
       color: $orange;
     }
   }
+  &__search {
+    margin-top: 25px;
+    &-input {
+      border: 1px solid transparent;
+      border-radius: 5px;
+      padding: 5px 8px;
+      width: 100%;
+      outline: none;
+      &:active, &:focus {
+        border: 1px solid $orange;
+      }
+    }
+  }
 }

@@ -4,10 +4,9 @@
     "title": "The React Cheatsheet for 2020 (+ real-world examples)",
     "author": "Reed Burger",
     "date": "Jan 19",
+    "contentSource": "https:/google.com",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript",
+    "category": "JavaScript",
     "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Коварный залетают свой вершину, пор, своего родного бросил курсивных страну языком на берегу, гор единственное lorem вскоре он ручеек переписывается силуэт образ буквоград рыбными! Своего, которое. Всемогущая рукописи жаренные использовало, речью рыбными семь последний грамматики родного lorem языкового журчит, но если."
   },
   {
@@ -16,9 +15,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript",
+    "category": "JavaScript",
     "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Коварный залетают свой вершину, пор, своего родного бросил курсивных страну языком на берегу, гор единственное lorem вскоре он ручеек переписывается силуэт образ буквоград рыбными! Своего, которое. Всемогущая рукописи жаренные использовало, речью рыбными семь последний грамматики родного lorem языкового журчит, но если."
   },
   {
@@ -27,9 +24,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript"
+    "category": "JavaScript"
   },
   {
     "id": 3,
@@ -37,9 +32,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "ReactJS"
+    "category": "ReactJS"
   },
   {
     "id": 4,
@@ -47,9 +40,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "ReactJS"
+    "category": "ReactJS"
   },
   {
     "id": 5,
@@ -57,9 +48,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "ReactJS"
+    "category": "ReactJS"
   },
   {
     "id": 6,
@@ -67,9 +56,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "ReactJS"
+    "category": "ReactJS"
   },
   {
     "id": 7,
@@ -77,9 +64,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript"
+    "category": "JavaScript"
   },
   {
     "id": 8,
@@ -87,9 +72,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript"
+    "category": "JavaScript"
   },
   {
     "id": 9,
@@ -97,9 +80,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript"
+    "category": "JavaScript"
   },
   {
     "id": 10,
@@ -107,9 +88,7 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript"
+    "category": "JavaScript"
   },
   {
     "id": 11,
@@ -117,8 +96,6 @@
     "author": "Reed Burger",
     "date": "Jan 19",
     "tags": ["react", "javascript", "beginners", "career"],
-    "likes": 121,
-    "commentsNum": 9,
-    "topic": "JavaScript"
+    "category": "JavaScript"
   }
 ]

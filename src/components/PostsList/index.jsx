@@ -6,13 +6,13 @@ const FeaturedPosts = ({ posts, title }) => {
     <div className='featured-posts posts-list'>
       <h2 className='featured-posts__title'>{title}</h2>
       <div className='featured-posts__list'>
-        {posts.map(item => (
+        {posts && posts.map(item => (
           <div className='featured-posts__item posts-list__item' key={item.id}>
             <div className='posts-list__preview'>
               <img
                 className='posts-list__preview-img'
                 alt='example'
-                src={`https://picsum.photos/id/23${item.id}/240/200`}
+                src={`https://picsum.photos/id/23${item.id}/800/500`}
               />
             </div>
             <div className='posts-list__footer'>

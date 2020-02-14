@@ -6,7 +6,7 @@
     margin: 0 -15px;
   }
   &__item {
-    width: calc(33.33% - 30px);
+    width: calc(50% - 30px);
     margin: 0 15px 15px;
   }
 }
@@ -43,6 +43,6 @@
     color: rgba(0, 0, 0, 0.45);
   }
   &__footer {
-    padding: 5px;
+    padding: 10px;
   }
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import Search from '../../containers/Search';
+
 const TopMenu = () => {
   return (
     <div className='sidebar'>
@@ -35,11 +37,11 @@ const TopMenu = () => {
           </NavLink>
         </li>
       </ul>
-      <div className='sidebar__search'>
-        <input type='text' className='sidebar__search-input' />
-      </div>
+      <Search/>
     </div>
   );
 };
+
+
 
 export default TopMenu;
