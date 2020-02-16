@@ -1,10 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
-const FeaturedPosts = ({ posts, title }) => {
+const PostsList = ({ posts, title, searchQuery }) => {
+  let location = useLocation();
+  let [titleState, setTitleState] = useState(title);
+  useEffect(() => {
+    const searchQuery = location.search.replace('?search=', '');
+    searchQuery.length ? setTitleState(`По запросу: '${searchQuery}' найдено ${posts.lengthl} элементов`) : setTitleState(title);
+  }, [location])
+
   return (
     <div className='featured-posts posts-list'>
-      <h2 className='featured-posts__title'>{title}</h2>
+      <h2 className='featured-posts__title'>{titleState}</h2>
       <div className='featured-posts__list'>
         {posts && posts.map(item => (
           <div className='featured-posts__item posts-list__item' key={item.id}>
@@ -31,4 +38,4 @@ const FeaturedPosts = ({ posts, title }) => {
   );
 };
 
-export default FeaturedPosts;
+export default PostsList;

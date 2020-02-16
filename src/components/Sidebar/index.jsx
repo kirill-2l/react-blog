@@ -20,6 +20,15 @@ const TopMenu = () => {
         </li>
         <li className='sidebar__item'>
           <NavLink
+            to='/posts'
+            className='sidebar__link'
+            activeClassName='sidebar__link--active'
+          >
+            Все посты
+          </NavLink>
+        </li>
+        <li className='sidebar__item'>
+          <NavLink
             to='/category/javascript'
             className='sidebar__link'
             activeClassName='sidebar__link--active'

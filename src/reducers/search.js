@@ -1,14 +1,16 @@
 const initialState = {
-  items: null
+  searchQuery: ''
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case 'SET_QUERY':
+    case "SET_SEARCH_QUERY":
       return {
         ...state,
-        items: action.payload,
+        searchQuery: action.payload
       };
+    case "RESET_SEARCH_QUERY":
+      return '';
     default:
       return state;
   }

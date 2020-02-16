@@ -1,12 +1,14 @@
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import * as searchActions from '../actions/search';
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import * as searchActions from "../actions/search";
 
-import Search from '../components/Search';
+import Search from "../components/Search";
+
+
+
 
 const mapStateToProps = ({ search }) => ({
-  // posts: posts.items,
-  // isReady: posts.isReady
+  searchQuery: search.searchQuery
 });
 const mapDispatchToProps = dispatch => ({
   ...bindActionCreators(searchActions, dispatch)

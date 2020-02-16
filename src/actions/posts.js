@@ -1,6 +1,6 @@
-export const setPosts = (posts) => {
+export const setPosts = posts => {
   return {
-    type: 'SET_POSTS',
+    type: "SET_POSTS",
     payload: posts
   };
 };

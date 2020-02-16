@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, useParams } from 'react-router-dom';
 
 import Sidebar from '../Sidebar';
 // import Breadcrumb from '../Breadcrumb';
@@ -20,17 +20,18 @@ const App = ({ posts, setPosts }) => {
       <Sidebar />
       <div className='content'>
         <div className='content__head'>
-        {/* <Route path='/:directory' render={(props) => <Breadcrumb {...props}/>} /> */}
+          {/* <Route path='/:directory' render={(props) => <Breadcrumb {...props}/>} /> */}
         </div>
         {posts && (
           <div className='content__body'>
             <Switch>
               <Route exact path='/'>
-                <PostsList posts={posts.slice(0, 6)} />
+                <PostsList posts={posts.slice(0, 6)} title={"Последние записи"} />
               </Route>
-              <Route exact path='/posts'>
-                <PostsList posts={posts} title={'Все записи'} />
+              <Route exact path='/posts/'>
+                <PostsList posts={posts} title={'Все посты'} />
               </Route>
+
               <Route exact path='/category/javascript'>
                 <PostsList
                   posts={posts.filter(item => item.category === 'JavaScript')}
