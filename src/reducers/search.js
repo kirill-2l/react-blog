@@ -10,7 +10,9 @@ export default (state = initialState, action) => {
         searchQuery: action.payload
       };
     case "RESET_SEARCH_QUERY":
-      return '';
+      return {
+        searchQuery: ''
+      };
     default:
       return state;
   }

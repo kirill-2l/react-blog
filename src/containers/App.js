@@ -1,9 +1,8 @@
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
-import * as postsActions from "../actions/posts";
-import * as searchActions from "../actions/search";
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import * as postsActions from '../actions/posts';
 
-import App from "../components/App";
+import App from '../components/App';
 
 const searchPosts = (posts, searchQuery) =>
   posts.filter(
@@ -18,7 +17,7 @@ const mapStateToProps = ({ posts, search }) => ({
   isReady: posts.isReady
 });
 const mapDispatchToProps = dispatch => ({
-  ...bindActionCreators(postsActions, dispatch),
+  ...bindActionCreators(postsActions, dispatch)
 });
 
 // first arg connect store to App component, second arg connect actions

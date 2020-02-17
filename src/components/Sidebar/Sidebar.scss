@@ -35,15 +35,26 @@
   }
   &__search {
     margin-top: 25px;
+    position: relative;
     &-input {
       border: 1px solid transparent;
       border-radius: 5px;
-      padding: 5px 8px;
+      padding: 5px 30px 5px 8px;
       width: 100%;
       outline: none;
       &:active, &:focus {
         border: 1px solid $orange;
       }
+    }
+    &-clear {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 12px;
+      height: 12px;
     }
   }
 }

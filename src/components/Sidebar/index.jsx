@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import Search from '../../containers/Search';
 
-const TopMenu = () => {
+const Sidebar = () => {
   return (
     <div className='sidebar'>
       <Link to='/' className='sidebar__logo logo'>
@@ -53,4 +53,4 @@ const TopMenu = () => {
 
 
 
-export default TopMenu;
+export default Sidebar;

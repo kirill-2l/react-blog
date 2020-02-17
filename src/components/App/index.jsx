@@ -1,14 +1,12 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import { Switch, Route, useParams } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import Sidebar from '../Sidebar';
-// import Breadcrumb from '../Breadcrumb';
-import PostsList from '../PostsList';
+import PostsList from '../../containers/PostsList';
 import Post from '../Post';
 import About from '../About';
 import './App.scss';
-import Breadcrumb from '../Breadcrumb';
 
 const App = ({ posts, setPosts }) => {
   useEffect(() => {
@@ -26,7 +24,10 @@ const App = ({ posts, setPosts }) => {
           <div className='content__body'>
             <Switch>
               <Route exact path='/'>
-                <PostsList posts={posts.slice(0, 6)} title={"Последние записи"} />
+                <PostsList
+                  posts={posts.slice(0, 6)}
+                  title={'Последние записи'}
+                />
               </Route>
               <Route exact path='/posts/'>
                 <PostsList posts={posts} title={'Все посты'} />
@@ -54,6 +55,18 @@ const App = ({ posts, setPosts }) => {
               <Route exact path='/about'>
                 <About />
               </Route>
+              <Route
+                exact
+                path='/tag/:tagSlug'
+                render={({ match }) => (
+                  <PostsList
+                    title={`Tag: ${match.params.tagSlug}`}
+                    posts={posts.filter(item =>
+                      item.tags.includes(match.params.tagSlug)
+                    )}
+                  />
+                )}
+              />
             </Switch>
           </div>
         )}
